@@ -2,7 +2,11 @@
  * Web Component to make the enclosed list "sortable" by the user, by dragging the
  * elements around.
  *
- * Based on code and strategy in https://github.com/woutervroege/sortable-element
+ * Copyright (c) 2024 Andrew Peterson <andy@ndpsoftware.com> All Rights Reserved.
+ *
+ * Previewing of element movement based on the work of Wouter Vroege at
+ * https://github.com/woutervroege/sortable-element
+ * Copyright (c) 2020 Wouter Vroege <wouter@woutervroege.nl>
  */
 export class ManualSort<Sortable extends HTMLElement =  HTMLElement> extends HTMLOListElement {
 

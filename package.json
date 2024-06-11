@@ -12,7 +12,7 @@
     "url": "https://git.com/ndp/web-component-playground"
   },
   "author": "andrew j peterson",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "*",
     "@types/jsdom": "*",

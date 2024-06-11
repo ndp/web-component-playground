@@ -1,19 +1,8 @@
 import * as assert from 'assert';
-import {DOMWindow, JSDOM} from 'jsdom';
 import { ManualSort } from './manual-sort.js';
-import {describe, beforeEach, it} from 'node:test';
+import {describe, it} from 'node:test';
 
 describe('ManualSort', function() {
-  // let dom: JSDOM;
-  // let window: DOMWindow;
-  // let document: Document;
-
-  // beforeEach(function() {
-  //   dom = new JSDOM();
-  //   window = dom.window;
-  //   document = window.document;
-  //   global.HTMLOListElement = window.HTMLOListElement;
-  // });
 
   it('should be defined', function() {
     assert.ok(ManualSort);
@@ -64,5 +53,4 @@ describe('ManualSort', function() {
     assert.equal(ol.createDragHandles, true)
   })
 
-  // Add more tests as needed...
 });
