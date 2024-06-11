@@ -1,0 +1,25 @@
+{
+  "name": "manual-sort",
+  "version": "1.0.0",
+  "description": "Web Component that allows user to manually sort a list",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node  --import ./src/esm-ts-setup.js --import ./src/test-setup.js ./src/manual-sort-test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.com/ndp/web-component-playground"
+  },
+  "author": "andrew j peterson",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "*",
+    "@types/jsdom": "*",
+    "ava": "*",
+    "esm": "*",
+    "jsdom": "*",
+    "typescript": "*",
+    "ts-node": "*"
+  }
+}
